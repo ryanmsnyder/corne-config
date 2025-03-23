@@ -52,7 +52,7 @@
 &kp EQUAL      &kp Q             &kp W             &kp F               &kp P                 &kp B            &kp J      &kp L                  &kp U                &kp Y              &kp LEFT_BRACKET   &kp RIGHT_BRACKET
 &kp MINUS      &HRML LEFT_GUI A  &HRML LEFT_ALT R  &HRML LEFT_SHIFT S  &HRML LEFT_CONTROL T  &kp G            &kp M      &HRMR RIGHT_CONTROL N  &HRMR E RIGHT_SHIFT  &HRMR RIGHT_ALT I  &HRMR RIGHT_GUI O  &kp SEMICOLON
 &kp BACKSLASH  &kp Z             &kp X             &kp C               &kp D                 &kp V            &kp K      &kp H                  &kp COMMA            &kp DOT            &kp FSLH           &kp SINGLE_QUOTE
-                                                   &mo 1               &kp DELETE            &kp BACKSPACE    &kp SPACE  &lt 2 TAB              &kp RETURN
+                                                   &lt 1 ESCAPE        &kp DELETE            &kp BACKSPACE    &kp SPACE  &kp TAB                &lt 2 RET
             >;
         };
 
