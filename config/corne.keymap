@@ -52,7 +52,7 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL      &kp Q             &kp W             &kp F               &kp P                 &kp B                           &kp J                          &kp L                  &kp U                &kp Y              &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-&kp MINUS      &HRML LEFT_GUI A  &HRML LEFT_ALT R  &HRML LEFT_SHIFT S  &HRML LEFT_CONTROL T  &HRML G LS(LA(LEFT_CONTROL))    &HRMR M RS(RA(RIGHT_CONTROL))  &HRMR RIGHT_CONTROL N  &HRMR RIGHT_SHIFT E  &HRMR RIGHT_ALT I  &HRMR RIGHT_GUI O  &kp SEMICOLON
+&kp MINUS      &HRML LEFT_GUI A  &HRML LEFT_ALT R  &HRML LEFT_SHIFT S  &HRML LEFT_CONTROL T  &HRML LS(LA(LEFT_CONTROL)) G    &HRMR RS(RA(RIGHT_CONTROL)) M  &HRMR RIGHT_CONTROL N  &HRMR RIGHT_SHIFT E  &HRMR RIGHT_ALT I  &HRMR RIGHT_GUI O  &kp SEMICOLON
 &kp BACKSLASH  &kp Z             &kp X             &kp C               &kp D                 &kp V                           &kp K                          &kp H                  &kp COMMA            &kp DOT            &kp FSLH           &kp SINGLE_QUOTE
                                                    &kp ESC             &lt 2 DEL             &lt 1 BACKSPACE                 &lt 3 SPACE                    &lt 4 TAB              &kp ENTER
             >;
