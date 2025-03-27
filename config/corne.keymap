@@ -58,6 +58,17 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        CDTR: CDTR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CMD_DOUBLE_TAP_REPEAT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+            quick-tap-ms = <250>;
+        };
     };
 
     keymap {
@@ -75,7 +86,7 @@
 &kp EQUAL      &kp Q             &kp W             &kp F               &kp P                 &kp B                           &kp J                          &kp L                  &kp U                &kp Y              &kp LEFT_BRACKET   &kp RIGHT_BRACKET
 &kp MINUS      &HRML LEFT_GUI A  &HRML LEFT_ALT R  &HRML LEFT_SHIFT S  &HRML LEFT_CONTROL T  &HRML LS(LA(LEFT_CONTROL)) G    &HRMR RS(RA(RIGHT_CONTROL)) M  &HRMR RIGHT_CONTROL N  &HRMR RIGHT_SHIFT E  &HRMR RIGHT_ALT I  &HRMR RIGHT_GUI O  &kp SEMICOLON
 &kp BACKSLASH  &kp Z             &kp X             &kp C               &kp D                 &kp V                           &kp K                          &kp H                  &kp COMMA            &kp DOT            &kp FSLH           &kp SINGLE_QUOTE
-                                                   &CMD_HOLD LCMD ESC  &LDTR 2 DEL           &LDTR 1 BACKSPACE               &LDTR 3 SPACE                  &LDTR 4 TAB            &kp ENTER
+                                                   &CMD_HOLD LCMD ESC  &LDTR 2 DEL           &LDTR 1 BACKSPACE               &LDTR 3 SPACE                  &LDTR 4 TAB            &CDTR RCMD ENTER
             >;
         };
 
